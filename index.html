@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cozinha Veggie</title>
+  </head>
+  <body>
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-light" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#index.html"></a>
+          <img id="logo" src="imagens/logo.png" alt="Cozinha Veggie">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li> 
+                     
+             </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--Cards-->
+      <div class="col-11 m-auto row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="imagens/aveia_dormida01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aveia dormida</h5>
+              <p class="card-text">Mais conhecida como Overnight Oats, na lingua inglesa, é uma ótima opção para o café da manhã ou um lanchinho.</p>
+              <!-- Button trigger modal -->
+            <button  type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalaveia">
+              Receita
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="modalaveia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Aveia dormida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>4Cs de aveia em flocos</p>
+                    <p>1/2 xic de leite de coco ou outro leite vegetal</p>
+                    <p>1Cs de linhaça</p>
+                    <p>Pitada de canela</p>
+                    <p>Piatada de cravo em pó</p>
+                    <p>Uva passas a gosto</p>
+                    <p>Morangos picados a gosto</p>
+                    <p>1 banana em rodelas</p>
+                    <p>Pedacinhos de castanha de caju</p>
+                    <p>Preparo: Na noite anterior, misture a aveia, 
+                    a linhaça, a canela, o cravo, uvas passas e o leite de coco. 
+                    Põe tudo numa vasilha e leva a geladeira. No dia seguinte acrescente 
+                    a banana, o morango e por fim a castanha. Se achar necessário, 
+                    acrescente mais leite de coco. Você pode comer essa mistura gelada ou 
+                    esquentar, se preferir. Vc pode substituir as frutas, o leite vegetal e
+                  colocar outros tipos de castanhas. Há uma infinidade de combinações deliciosas.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>        
+        <div class="col">
+          <div class="card">
+            <img src="imagens/pao_banana01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pão de banana</h5>
+              <p class="card-text">Alguém gosta de banana aí? Que tal um pãozinho dessa fruta? Hummm! Esse pão cai muito bem no cafezinho da manhã ou simplesmente num lache.</p>
+                        <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#bananamodal">
+            Receita
+          </button>
+          <!-- Modal -->
+          <div id="bananamodal"class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Pão de banana</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>4 bananas maduras pequenas</p>
+                    <p>3 ovos</p>
+                    <p>2Cs de óleo de coco</p>
+                    <p>Canela a gosto</p>
+                    <p>1xic de farinha de arroz</p>
+                    <p>1xic farinha ou farelo de aveia</p>
+                    <p>Semente de girassol ou outra oleaginosa.</p>
+                    <p> 1cs fermento químico</p>          
+                    <p>Preparo: bata os ovos, o óleo, as bananas e a 
+                    canela no liquidificador. Numa vasilha, junte as 
+                    farinhas aos poucos, acrescente as sementes de girassol
+                    e por último o fermento. Unte uma fôrma para pão com óleo 
+                    e farinha de arroz. Se preferir, ponha alguns pedaços de 
+                    banana por cima da massa já na fôrma. Leve ao forno 
+                    preaquecido por 20 a 30min. Prontinho! Deliciem-se!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="imagens/paodequeijo01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pão de queijo vegano</h5>
+              <p class="card-text">Essa maravilha de pãozinho é feito com massa de macaxeira. Simplesmente irresistível comer um só. Vem conferir essa receitinha.</p>
+              <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#paoqueijomodal">
+            Receita
+          </button>
+              <!-- Modal -->
+          <div id="paoqueijomodal"class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Pão de queijo vegano</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>200g de macaxeira</p>
+                    <p>50g de polvilho doce
+                    <p>50g de polvilho azedo
+                    <p>1cc sal
+                    <p>1cc de orégano
+                    <p>1CS de chia(opcional) obs. Eu não coloquei.
+                    <p>4 CS de azeite
+                    <p>Cozinhe a macaxeira na água e sal. Depois de cozida amasse a macaxeira com espremedor de batatas ou Mixer. Usei Mixer. Lembre de retirar o pavio da macaxeira antes de espremê-la. Em seguida misture os demais ingredientes aos poucos: polvilhos, sal, orégano e azeite...e vá misturando tudo muito bem. O ponto é quando a massa estiver soltando das mãos, diz Sandra. Ela diz q vc pode adicionar mais polvilho, caso precise até chegar esse ponto. Eu adicionei mais duas colheres de sopa de cada polvilho e nada mudou. Comecei a ficar com medo disso hahaha. A massa não desgrudava das minhas mãos e eu n queria adicionar mais farinha. Então eu parei e resolvi apenas untar minhas mãos de óleo e fazer pequenas bolinhas, como ela recomenda, do tamanho que vc consiga comer numa mordida só. E preferi untar a forma com óleo TB, na dúvida. Pois ela diz q n precisa. Mesmo a minha travessa sendo antiaderente. Leve ao forno preaquecido a 180° e espere em torno de 20min. Está pronto.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          </div>
+        <div class="col">
+          <div class="card">
+            <img src="imagens/quibe_forno01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Quibe de forno</h5>
+              <p class="card-text">Prático e saboroso. Ótima pedida para aquela ocasião especial</p>
+              <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#quibemodal">
+            Receita
+            </div>
+            <!-- Modal -->
+          <div id="quibemodal"class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Quibe de forno</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>1xic de batata doce cozida amassada (sem casca)</p>
+                  <p>1/2 xic de Quinoa em grão</p>
+                  <p>1xic lentilha</p>
+                  <p>1 cebola picada</p>
+                  <p>4 dentes de alho picados</p>
+                  <p>1CSde salsa picada</p>
+                  <p>1CS de hortelã picada</p>
+                  <p>Sal</p>
+                  <p>Cominho</p>
+                  <p>Azeite</p>
+                      <p>Deixe a lentilha de molho por pelo menos 8h. Descarte a água de remolho e lave a lentilha em água corrente. Numa panela com duas xícaras de água inclua a lentilha e deixe cozinhar com a tampa semiaberta. Enquanto isso, deixe a quinoa de molho até a água da lentilha começar a secar. Feito isso, escorra a quinoa e junte à lentilha, tampe. Espere a quinoa cozinhar. Em seguida junte a cebola, o alho, o sal, o cominho, a salsa e o hortelã. Misture bem acrescente a batata doce e o azeite. Unte com azeite uma travessa de vidro 25x16 e espalhe a misturinha, aperte bem com uma colher. Envie para o forno preaquecido a 180°C. Deixe cozinhar por mais ou menos 25min ou até dourar.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>        
+          </div>
+        <!-- </div> -->
+        <div class="col">
+            <div class="card">
+              <img src="imagens/hamburger_veggie01.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hamburguer de Lentilha</h5>
+                <p class="card-text">Essa receita é pra quem ama hamburguer, mas não abre mão de comer saudável.</p>
+                <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#hamburguermodal">
+            Receita
+            </div>
+              </div>
+            <!-- Modal -->
+          <div id="hamburguermodal"class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Hamburguer de Lentilha</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Lentilha
+                  <p>Trigo 
+                  <p>Temperos à gosto
+                  <p> Sal 
+                      <p>Deixe a lentilha de molho por pelo menos 8h. Descarte a água de   remolho  e lave a lentilha em água corrente. Modo de preparo:
+                        Cozinhe a lentilha e bata no liquidificador com um pouco de água ou deixei os grãos inteiros. Temperar a gosto, com alho ou gengibre, cebola, açafrão, pimenta do reino, entre outras especiarias. Para cada xic de lentilha ponha 2cs de trigo. Modele, ponha numa travessa e deixe no congelador por no mínimo 30min( vc tb pode deixar por semanas e usar quando quiser). Em seguida frite numa frigideira antiaderente de preferência com um fio de azeite ou leve ao forno pré aquecido em temperatura média e deixe assar em torno de 30min. Pronto!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+            <!-- </div> -->
+          <!-- </div> -->
+          <div class="col">
+            <div class="card">
+              <img src="imagens/moqueca_vegetariana01.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Moqueca de banana da terra</h5>
+                <p class="card-text">Até quem não gosta de banana da terra vai gostar dessa iguaria deliciosa.</p>
+                 <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#moquecamodal">
+            Receita
+            </div>
+            <!-- Modal -->
+          <div id="moquecamodal"class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Moqueca de Banana</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>4 bananas compridas ou da terra</p>
+                  <p>Azeite de dendê</p>
+                  <p>1cebola picada</p>
+                  <p>2 dentões de alho</p>
+                  <p>1 tomates picados</p>
+                  <p>1/2 pimentão amarelo, outro vermelho e outro verde cortados em rodelas.</p>
+                  <p>1 tomate em rodelas</p>
+                  <p>1 cebola em rodelas</p>
+                  <p>1xic de leite de coco (caseiro)</p>
+                  <p>Coentro</p>
+                  <p>Sal</p>
+                  <p>2limões</p>
+                  <p>Pimenta (se quiser), usamos pimenta do reino e pimenta de cheiro que dá um sabor incrível.</p>
+                    <p>Manjericão (opcional), usei umas 6 folhinhas frescas.</p>
+                    </p>
+                      <p>Corte as bananas em rodelas grossas e tempere com suco de limão, alho e sal. Com o azeite de oliva doure a cebola junto com os tomates e pimentão picados com sal. Coloque as bananas enfileiradas, como se fossem postas de peixinhos 🐠😱😡. Adicione cebola, tomate e pimentão em rodelas, coentro e leite de coco. Tampe e deixe cozinhar por uns 10min. Se você tiver dendê, finalize com ele, apenas duas colheres, não abuse dessa criança. Pronto! Sirva-se!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+      <br>
+      <br>
+      <footer class="page-footer font-small blue p-5" style="background-color: rgb(240, 239, 245);;">
+        <div class="text-center">
+            <img id="logofooter" src="imagens/logo.png" alt="Cozinha Veggie">
+        </div>
+        <div class="text-center">
+          <a href="/" id="copyfooter"> &copy 2022 Copyright Cozinha Veggie </a>
+        </div>
+      </footer>     
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+<!--
+    Elaborar as paginas de cada receita
+    Elaborar a pagina de contatos
+-->

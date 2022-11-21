@@ -1,0 +1,73 @@
+
+.navbar {
+    background-color: rgb(240, 239, 245);
+}
+
+#logo {
+    width: 130px;
+    margin-right: 15px;
+    margin-left: -50px;
+}
+
+#logofooter{
+    width: 200px;
+    text-align: center;
+    
+}
+#copyfooter{
+    color: #4d23e4;
+	font-size: 15px;
+   
+}
+
+/*#btnreceitas {
+    background-color: green;
+    font-style: white;
+}
+*/
+
+form {
+	margin: 40px 0;
+	margin-left: 20px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:17%;
+	padding: 15px 0;
+	background: rgb(11, 97, 38);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(11, 97, 38);
+	transform: scale(1.1);
+}
+
+table {
+	margin: 20px 0 40px;
+	margin-left: 20px;
+}
